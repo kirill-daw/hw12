@@ -5,11 +5,11 @@ public class Main {
         Author viktorPelevin = new Author("Viktor", "Pelevin");
 
         Book generationP = new Book("Generation P", viktorPelevin, 1999);
-        System.out.println("The book: " + generationP.getNameBook() + ", Author: " + generationP.getAuthorBook() + ", Year of publication: " + generationP.getPublicationYear());
+        System.out.println(generationP);
 
         Author gregoryRoberts = new Author("Gregory", "Roberts");
         Book shantaram = new Book("Shantaram", gregoryRoberts, 2003);
         shantaram.setPublicationYear(2010);
-        System.out.println("The book: " + shantaram.getNameBook() + ", Author: " + shantaram.getAuthorBook() + ", Year of publication: " + shantaram.getPublicationYear());
+        System.out.println(shantaram);
     }
 }
